@@ -129,7 +129,7 @@ def open_ta(phone_number,email):
     email_field.send_keys(email)
     
 def send_code(body,receiver):
-    sender  = 'teo307852@gmail.com'
+    sender  = 'email@email'
     password = os.getenv("code")
     subject = 'Your code!'
 
